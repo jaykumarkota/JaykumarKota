@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JayKumar Kota</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/My Logo circled.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <h1 class="header__heading">JayK</h1>
+        <nav class="navBar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li id="header__bar"></li>
+            <li>
+              <button class="dark-light-toggle">
+                <ion-icon id="sun-icon" name="sunny"></ion-icon>
+              </button>
+            </li>
+            <li>
+              <a
+                href="./files/RESUME JAY.pdf"
+                target="./main"
+                class="resume-btn btn"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="ham-menu__btn">
+          <ion-icon class="ham-icon" name="menu"></ion-icon>
+        </button>
+
+        <!-- ------mobile-navigation---- -->
+        <nav class="mobile-navMenu">
+          <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-links">Home</a></li>
+            <li><a href="#about" class="mobile-links">About</a></li>
+            <li><a href="#services" class="mobile-links">Services</a></li>
+            <li><a href="#work" class="mobile-links">Work</a></li>
+            <li class="mobile-navMenu-line"></li>
+            <li>
+              <button class="mobile-navMenu-DarkModeBtn dark-light-toggle">
+                <ion-icon id="sun-icon" name="sunny"></ion-icon>
+              </button>
+            </li>
+            <li>
+              <a
+                href="./files/RESUME JAY.pdf"
+                target="./main"
+                class="mobile-resume-btn btn"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- -------End of mobile-navigation------- -->
+      </div>
+    </header>
+
+    <main>
+      <!-- ---------------------hero section------------- -->
+      <section id="home" class="hero container">
+        <img src="./images/My pic2.jpg" class="hero-img" />
+        <h2 class="hero-subtitle">Hi, I'm Jay👋</h2>
+        <h1 class="hero-title">FRONT-END<br />WEB DEVELOPER.</h1>
+        <p class="hero-description">
+          A passionate <span>Frontend / Fullstack</span> web developer
+          specialized in building stunning pixel-perfect interactive
+          websites/applications.
+        </p>
+        <a href="#contact" class="btn">Reach Out</a>
+      </section>
+
+      <!-- ----------------------about section--------------- -->
+      <section id="about" class="about container section">
+        <div class="row">
+          <div class="about-col-1">
+            <h1 class="about__heading">About Me</h1>
+            <p class="about__description">
+              Hii, My name is <span>Jaykumar Kota</span>, a passionate
+              <span>Frontend web developer</span> specialized in building
+              stunning pixel-perfect interactive websites/applications.<br /><br />I
+              wake up in the morning, grab a cup of coffee, open up my laptop
+              and build things that live on the web all day, everyday. Iam from
+              hyderabad, i persued my BSc(degree) from jagruti degree college.
+            </p>
+            <div class="about__details">
+              <div class="cont-tab-titles">
+                <p class="tab-titles">Skills</p>
+                <div class="tab-contents">
+                  <ul>
+                    <li>
+                      <span>Frontend Developer</span><br />Developed frontend
+                      web apps
+                    </li>
+                    <li><span>Python</span><br />Completed Python Fullstack</li>
+                    <li><span>SQL</span><br />Has a good knowledge in sql</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="cont-tab-titles">
+                <p class="tab-titles">Education</p>
+                <div class="tab-contents">
+                  <ul>
+                    <li>
+                      <span>BSc(computer science)</span><br />Persued from
+                      jagruti degree college
+                    </li>
+                    <li>
+                      <span>Intermediate(MPC)</span><br />Persued from sri
+                      chandra college
+                    </li>
+                    <li>
+                      <span>SSC</span><br />Persued from vani u.p.s school
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <img src="./images/My pic.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------services---------------- -->
+
+      <section id="services" class="services container section">
+        <h1 class="services__heading">Services</h1>
+
+        <div class="services-list">
+          <div class="services-box box1">
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Developing</h2>
+            <p>
+              A frontend web developer specialized in building stunning
+              pixel-perfect interactive websites/applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div class="services-box box2">
+            <i class="fa-brands fa-node"></i>
+            <h2>Backend Developer</h2>
+            <p>
+              A backend web developer specialized in building stunning
+              pixel-perfect interactive websites/applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div class="services-box box3">
+            <i class="fa-solid fa-database"></i>
+            <h2>SQL</h2>
+            <p>Worked with popular databases like MY SQL and MONGO DB</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------work----------- -->
+
+      <section id="work" class="work container section">
+        <h1 class="work__heading">Work</h1>
+
+        <div class="work-list">
+          <div class="work-box">
+            <img class="work-box__img" src="./images/spotify__music_app.jpg" />
+            <div class="work-layer">
+              <h3>Music App</h3>
+              <p>
+                I developed a user-friendly music app that allows users to
+                create playlists, browse songs, and enjoy a seamless listening
+                experience with advanced search and streaming capabilities.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img class="work-box__img" src="./images/mobile__app.jpg" />
+            <div class="work-layer">
+              <h3>Portfolio</h3>
+              <p>
+                I designed and built a dynamic portfolio web app showcasing my
+                projects, skills, and achievements, offering a visually
+                appealing and interactive platform for potential employers and
+                collaborators.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work-box">
+            <img class="work-box__img" src="./images/mobile__app (2).jpg" />
+            <div class="work-layer">
+              <h3>To-Do List App</h3>
+              <p>
+                I created a simple yet effective to-do list web app that helps
+                users manage tasks efficiently, with features like task
+                prioritization, deadlines, and reminders.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------contact------------------ -->
+      <section id="contact" class="contact container section">
+        <div class="contact-row">
+          <div class="contact-col-1">
+            <h1 class="contact__heading">Contact Me</h1>
+            <p class="contact__email">
+              <i class="fa-solid fa-envelope"></i>
+              <span>kota.jaykumar@gmail.com</span>
+            </p>
+
+            <p class="contact__mobile">
+              <i class="fa-solid fa-phone"></i>
+              <span>9502837642</span>
+            </p>
+
+            <div class="social-media-links">
+              <a href="https://www.linkedin.com/in/jaykumar-kota-1289602a8"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/jaykumarkota"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="./files/RESUME JAY.pdf" target="./main" class="down-cv btn"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-col-2">
+            <form name="submit-to-google-sheet">
+              <div class="contact__input">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="input-name"
+                  name="Name"
+                  required
+                />
+              </div>
+              <div class="contact__input">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="input-email"
+                  name="Email"
+                  required
+                />
+              </div>
+              <div class="input-messege-box">
+                <textarea
+                  name="Messege"
+                  class="input-messege"
+                  placeholder="Your Messege"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn btn">Submit</button>
+            </form>
+            <span id="form-sub-msg"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-msg container">
+        <p class="footer__msg">~ JAYKUMAR KOTA ~</p>
+      </section>
+    </footer>
+    
+    <script src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/e3dd4e5049.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxUivj2XwoaRZhrSkt0Zukakw5D775S05fox1lid7Ht9Yxhg0vzozIkLbrNC3rqVHeQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const formSubMsg = document.getElementById("form-sub-msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            formSubMsg.innerHTML = `<i class="fa-regular fa-circle-check"></i> Messege sent successfully.`;
+            setTimeout(function () {
+              formSubMsg.innerHTML = ``;
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
