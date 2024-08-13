@@ -317,6 +317,8 @@ body {
     flex-basis: 35%;
     border-radius: 12px;
     overflow: hidden;
+    animation: AnimScrollUp both;
+    animation-timeline: view(70% auto);
 }
 
 .about-col-2 img {
@@ -385,6 +387,8 @@ body {
     border: 1px solid var(--clr-rose);
     box-shadow: 0 0 10px var(--clr-rose);
     transition: background-color 0.5s, transform 0.5s;
+    animation: AnimScrollUp both;
+    animation-timeline: view(70% auto);
 }
 
 .services-box:hover {
@@ -460,6 +464,8 @@ body {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
+    animation: AnimScrollUp both;
+    animation-timeline: view(70% auto);
 }
 
 .work-box img {
@@ -1059,6 +1065,21 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: var(--clr-rose);
     outline: 1px solid var(--clr-rose);
+}
+
+
+@keyframes AnimScrollUp {
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+
+    }
+    
 }
 
 @keyframes textAnim {
